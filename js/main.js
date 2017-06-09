@@ -43,6 +43,7 @@ function doThis(e){
           opacity: 1,
         }, 500 );
         $('.result').html('<h3>Rythm</h3><p>' + rythmPercent.join(",  ")+'</p>');
+        $('#refresh').show();
     }
 }
 $(document)

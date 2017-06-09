@@ -10,11 +10,12 @@
 body {
   background-color: #21252b;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  text-rendering: optimizeLegibility; }
 
 #refresh {
   margin-top: 20%;
-  display: inline-block;
+  display: none;
   color: #75c993; }
 
 a {
@@ -63,7 +64,8 @@ a {
 
 #description {
   padding: 10% 0;
-  color: #a2b2bf; }
+  color: #a2b2bf;
+  line-height: 20px; }
 
 .result h3 {
   margin-top: 50px;
@@ -92,16 +94,14 @@ ul {
     width: 8px;
     border-radius: 100px; }
 
-.fa-twitter, .fa-codepen {
-  color: #326ada;
+.fa-lg {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  font-size: 25px; }
+  bottom: 20px; }
 
-.fa-codepen {
-  color: black;
-  position: absolute;
-  bottom: 20px;
-  right: 60px;
-  font-size: 25px; }
+.fa-twitter {
+  color: #326ada;
+  right: 20px; }
+
+.fa-globe {
+  color: #a2b2bf;
+  right: 60px; }
