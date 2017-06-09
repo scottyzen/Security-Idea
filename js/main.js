@@ -12,7 +12,7 @@ var getKeyTime = function(){
 times.forEach(getKeyTime);
 function doThis(e){
     if (e.which =='13' || e.type =='click'){
-        $('#input, #go').animate({
+        $('#input, #go, #description').animate({
           opacity: 0
         }, 250).hide();
         $('.info').css({
